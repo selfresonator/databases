@@ -11,12 +11,12 @@ CREATE TABLE messages (
 
 CREATE TABLE users (
   user_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  text VARCHAR(30) DEFAULT 'user'
+  username VARCHAR(30) DEFAULT 'user'
 );
 
 CREATE TABLE rooms (
   room_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  text VARCHAR(30) DEFAULT 'lobby'
+  roomname VARCHAR(30) DEFAULT 'lobby'
 );
 /* Create other tables and define schemas for them here! */
 
